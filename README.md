@@ -20,6 +20,7 @@ These labs will guide you through the installation of HR schema, available on th
 
 ## Labs
 Lab 1 - Provision Resources
+
 - Login to the OCI console and provision the required resources.
 
 Lab 2 - Run Analytics - Create Dashboards
