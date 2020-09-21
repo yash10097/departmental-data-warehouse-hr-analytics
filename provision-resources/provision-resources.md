@@ -22,7 +22,7 @@ Provision an Autonomous Datawarehouse instance and an Analytics Cloud instance.
 
 In order to provision an analytics cloud instance as part of a **Resource Manager** stack, an IDCS access token is required. If you don't have the necessary privileges, then proceed to Method 2.
 
-## STEP 1: Obtain IDCS Access Token
+### STEP 1: Obtain IDCS Access Token
 
 - Login to the OCI console and go the Navigation menu using the Menu button in the top left.
 
@@ -54,9 +54,11 @@ In order to provision an analytics cloud instance as part of a **Resource Manage
 
     ![](./images/1.7.png " ")
 
-You may follow the video [here](https://objectstorage.us-ashburn-1.oraclecloud.com/p/OVQA-GCUjlO9VwEdWqHSre02rNj4K6wZ3VsacpzsXNg/n/oradbclouducm/b/bucket-20200907-1650/o/mdw%20-%20idcs.mp4), if you are unsure of the steps above.
+**Note:** You may follow the video [here](https://objectstorage.us-ashburn-1.oraclecloud.com/p/OVQA-GCUjlO9VwEdWqHSre02rNj4K6wZ3VsacpzsXNg/n/oradbclouducm/b/bucket-20200907-1650/o/mdw%20-%20idcs.mp4), if you are unsure of the steps above.
 
-## STEP 2: Provision the Stack
+- You may now close the Identity Cloud Service Console.
+
+### STEP 2: Provision the Stack
 
 - In the navigation menu, scroll down to the **Solutions and Platform** section. Under **Resource Manager**, select **Stacks**.
 
@@ -100,15 +102,17 @@ You may follow the video [here](https://objectstorage.us-ashburn-1.oraclecloud.c
 
 **Note**:  If you have followed the steps above the job should succeed without any issues. Keep an eye on the logs to monitor the progress. If the job fails, please fix the issues and proceed.
 
-![](./images/1.24.png " ")
+![](./images/1.30.png " ")
 
-- You could either check the logs for the links to the resources that were provisioned as part of the stack or you can click on **Associated Resources** on the job details page.
+- If everything goes to plan, you will see the following message at the bottom of the logs.
+
+    ![](./images/1.31.png " ")
+
+- On the same page, you will find the **Associated Resources** under the **Reosurces** menu. Click on it to get the links to the provisioned resources.
 
     ![](./images/1.25.png " ")
 
 - Clicking on the links to the resources should take you to their pages.
-
-    ![](./images/1.26.png " ")
 
 **Note**: In case there is no link to get to analytics instance, follow the two steps given below, else proceed to the next lab.
 
@@ -121,7 +125,6 @@ You may follow the video [here](https://objectstorage.us-ashburn-1.oraclecloud.c
     ![](./images/1.28.png " ")
 
     ![](./images/1.29.png " ")
-
 
 ## Method 2: Independently Provision the Resources
 
@@ -165,7 +168,7 @@ You may follow the video [here](https://objectstorage.us-ashburn-1.oraclecloud.c
 
 - On the next page, click on the **Create Instance** button.
 
-    ![](./images/2.9.png " ")
+    ![](./images/1.28.png " ")
 
 - Choose a compartment and provide a name for the instance. Let everything else stay the same. Then click on **Create**.
 
@@ -174,3 +177,6 @@ You may follow the video [here](https://objectstorage.us-ashburn-1.oraclecloud.c
 - The instance will be up in 12-14 minutes. Once the instance is available, click on the **Open URL** button to gain access to the instance.
 
     ![](./images/2.11.png " ")
+
+
+You may now proceed to Lab 2.
