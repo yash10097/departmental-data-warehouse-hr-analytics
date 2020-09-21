@@ -29,10 +29,12 @@ Lab 2 - Run Analytics - Create Dashboards
 - Run analytics.
 - Upload DVA file to OAC.
 
+**You are all set. Let us begin!**
+
 ## Acknowledgements
 
 Author - Yash Lamba, Frankie OToole, Clarence Ondieki, Shikhar Mishra, Srihareendra Bodduluri, Maharshi Desai
 
 Last Update - September 20, 2020.
 
-**You are all set. Let us begin!**
+

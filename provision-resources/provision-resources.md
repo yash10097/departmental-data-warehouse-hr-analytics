@@ -2,23 +2,27 @@
 
 ## Introduction
 
-In the lab we will provision the resources required for the next lab.
+In this lab you will provision the resources required for this workshop.
 
-## Objectives
+### Objectives
 
 <!--Provision a stack comprising of an Autonomous Datawarehouse and an Analytics Cloud instance.-->
 Provision an Autonomous Datawarehouse instance and an Analytics Cloud instance.
 
-## Required Artifacts
+### Prerequisites
 
-- IDCS Access Token to provision an analytics instance as part of the stack.
-- Necessary permissions to provision the stack in a compartment.
+- Method 1
+    - IDCS Access Token to provision an analytics instance as part of the stack.
+    - Necessary permissions to provision the stack in a compartment.
+
+- Method 2
+    - Necessary permissions to provision an analytics instance and an autonomous database.
 
 ## Method 1: Using a Resource Manager Stack
 
-In order to provision an analytics cloud instance as part of a **Resource Manager** stack, an IDCS access token is required. If you do not have the required access level then proceed to Method 2.
+In order to provision an analytics cloud instance as part of a **Resource Manager** stack, an IDCS access token is required. If you don't have the necessary privileges, then proceed to Method 2.
 
-### STEP 1: Obtain IDCS Access Token
+## STEP 1: Obtain IDCS Access Token
 
 - Login to the OCI console and go the Navigation menu using the Menu button in the top left.
 
@@ -36,7 +40,7 @@ In order to provision an analytics cloud instance as part of a **Resource Manage
 
     ![](./images/1.4.png " ")
 
-- In the Identity Cloud Service Console, click on the user icon in the top right corner and select **My AccessTokens**.
+- In the Identity Cloud Service Console, click on the user icon in the top right corner and select **My Access Tokens**.
 
     ![](./images/1.5.png " ")
 
@@ -52,7 +56,7 @@ In order to provision an analytics cloud instance as part of a **Resource Manage
 
 You may follow the video [here](https://objectstorage.us-ashburn-1.oraclecloud.com/p/OVQA-GCUjlO9VwEdWqHSre02rNj4K6wZ3VsacpzsXNg/n/oradbclouducm/b/bucket-20200907-1650/o/mdw%20-%20idcs.mp4), if you are unsure of the steps above.
 
-### STEP 2: Provision the Stack
+## STEP 2: Provision the Stack
 
 - In the navigation menu, scroll down to the **Solutions and Platform** section. Under **Resource Manager**, select **Stacks**.
 
@@ -76,7 +80,7 @@ You may follow the video [here](https://objectstorage.us-ashburn-1.oraclecloud.c
 
 - On the **Configure Variables** screen, enter the admin password, database name and database display name.![](./images/1.18.png " ")
 
-- Check the **Auto Scaling** box to enable auto-scaling of hte database. Enabling this is optional, but recommended. Also, enter 0.0.0.0/0 in the public IP address field.
+- Check the **Auto Scaling** box to enable auto-scaling of the database. Enabling this is optional, but recommended. Also, enter 0.0.0.0/0 in the public IP address field.
 
     ![](./images/1.19.png " ")
 
@@ -98,7 +102,7 @@ You may follow the video [here](https://objectstorage.us-ashburn-1.oraclecloud.c
 
 ![](./images/1.24.png " ")
 
-- You could either check tjhe logs for the links to the resources that were provisioned as part of the stack or you can click on **Associated Resources** on the job details page.
+- You could either check the logs for the links to the resources that were provisioned as part of the stack or you can click on **Associated Resources** on the job details page.
 
     ![](./images/1.25.png " ")
 
