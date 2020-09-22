@@ -24,7 +24,7 @@ In order to provision an analytics cloud instance as part of a **Resource Manage
 
 ### STEP 1: Obtain IDCS Access Token
 
-- Login to the OCI console and go the Navigation menu using the Menu button in the top left.
+- Login to the OCI console and go the navigation menu using the menu button in the top left.
 
     ![](./images/1.1.png " ")
 
@@ -116,7 +116,7 @@ In order to provision an analytics cloud instance as part of a **Resource Manage
 
 **Note**: In case there is no link to get to analytics instance, follow the two steps given below, else proceed to the next lab.
 
-- From the Navigation menu, under **Solutions and Platform**, go to **Analytics** and select **Analytics Cloud**.
+- From the navigation menu, under **Solutions and Platform**, go to **Analytics** and select **Analytics Cloud**.
 
     ![](./images/1.27.png " ")
 
@@ -130,7 +130,7 @@ In order to provision an analytics cloud instance as part of a **Resource Manage
 
 ### STEP 1: Provision the Autonomous Data Warehouse
 
-- Login to the OCI console and go the Navigation menu using the Menu button in the top left.
+- Login to the OCI console and go the navigation menu using the Menu button in the top left.
 
     ![](./images/2.1.png " ")
 
@@ -162,7 +162,7 @@ In order to provision an analytics cloud instance as part of a **Resource Manage
 
 ### STEP 2: Provision the Analytics Cloud Instance
 
-- From the Navigation menu, under **Solutions and Platform**, go to **Analytics** and select **Analytics Cloud**.
+- From the navigation menu, under **Solutions and Platform**, go to **Analytics** and select **Analytics Cloud**.
 
     ![](./images/2.8.png " ")
 
